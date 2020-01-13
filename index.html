@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Muhammad Abdullah</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/c247ef8369.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- This is the navigation bar -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about-me">About</a>
+    <a href="#my-projects">Projects</a>
+    <a href="#contact-mois">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- This is the top container -->
+
+  <div class="container">
+    <picture>
+      <source srcset="images/tablet.png" media="(max-width: 800px)">
+      <img class="cover" src="images/coding laptop.jpg" alt="coding laptop"/>
+    </picture>
+    <div class="centered">
+      <h1 class="typewriter">I am Muhammad Abdullah</h1>
+    </div>
+  </div>
+
+  <!-- This is the middle container -->
+
+  <div class="middle-container" id="about-me">
+    <div class="profile">
+      <img src="images/angela.png" alt="Muhammad-profile-img">
+      <h2>Hello.</h2>
+      <p class="intro">I am an undergrad at the University of Waterloo studying Computer Enginnering who is very passionate about   </p>
+    </div>
+    <hr>
+    <div class="skills" id="my-projects">
+      <h2>My Projects</h2>
+
+<!-- First Project -->
+
+      <div class="skill-row">
+        <img class="code-img" src="images/Block Breaker.png" alt="code-img">
+        <h3>Block Breakers</h3>
+        <img class="logo" style="" src="images/unity logo3.jpg" alt="Unity logo">
+        <p>Blockbreakers is a fun, arcade type game that lets you break blocks using a ball that bounces off a paddle. The objective is to break all the blocks to complete the level. This was made using the Unity engine and was programmed in
+        C#.</p>
+      </div>
+
+<!-- Second Project -->
+
+      <div class="skill-row-second">
+        <img class="dice-img" src="images/Dice game.png" alt="chillies-img">
+        <h3>First To A Hundred</h3>
+        <img class="logos" style="width: 6%" src="images/html5-img.png" alt="html5 logo">
+        <img class="logos" style="width: 4.4%; margin-right: 1%" src="images/CSS.3.png" alt="css3 logo">
+        <img class="logos" style="width: 4.4%; margin-right: 0.4%" src="images/javascript-img.png" alt="javascript logo">
+        <p>First to hundred is a 2 player game where the player adds score to his/her round by rolling the dice, but if the player rolls a 1 or two sixs in a row then the player looses all of their score that he/she attained in that round
+          and the player switches turns. The player can choose to "hold" which will add the player's round score to their overall score. This game was made using HTML, CSS, and Javascript.
+        </p>
+      </div>
+
+<!-- Third Project -->
+
+<div class="skill-row-third">
+  <img class="todo-img" src="images/todo-list.png" alt="javascript">
+  <h3>Todo List</h3>
+  <img class="logos" style="width: 6%" src="images/html5-img.png" alt="html5 logo">
+  <img class="logos" style="width: 4.4%; margin-right: 1%" src="images/CSS.3.png" alt="css3 logo">
+  <img class="logos" style="width: 4.4%; margin-right: 0.4%" src="images/javascript-img.png" alt="javascript logo">
+  <img class="logos" style="width: 5.2%" src="images/nodejs-img.png" alt="nodejs logo">
+  <p>A todo list application that lets users create their own list of tasks that lets them plan and prioritize their day. The design and layout of this application was made using HTML and CSS
+    while the backend was done using Javascript and nodejs. The list was stored in a mongodb database.</p>
+</div>
+
+    </div>
+    <hr>
+    <div class="contact-me" id="contact-mois">
+      <h2>Get In Touch</h2>
+      <a class="btn" href="mailto:m36abdul@edu.uwaterloo.ca">CONTACT ME</a>
+    </div>
+  </div>
+
+<!-- This is the bottom container -->
+  <div class="bottom-container" style="position: relative">
+    <a style="color: black" class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
+    <a style="color: black" class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
+    <a style="color: black" class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright" style="color: black; text-align: center;">© 2018 Muhammad Abdullah.</p>
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
