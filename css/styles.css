@@ -1,5 +1,5 @@
 body {
-  color: #40514E;
+  color: #ffffff;
   background-color: #000000;
   margin: 0;
   text-align: center;
@@ -106,7 +106,7 @@ a.project:hover{
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 20px 0 100px 0;
 }
 
 .bottom-container {
@@ -178,6 +178,12 @@ a.project:hover{
   height: auto;
   float: left;
   margin-right: 30px;
+}
+
+.programming-img {
+  width: 10%;
+
+  height: auto;
 }
 
 .todo-img {
