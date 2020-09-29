@@ -116,19 +116,19 @@ a.project:hover{
 
 .skill-row {
   width: 60%;
-  margin: 50px auto 12% auto;
+  margin: 50px auto 350px auto;
   text-align: left;
 }
 
 .skill-row-second {
   width: 60%;
-  margin: 250px auto 100px auto;
+  margin: 0px auto 190px auto;
   text-align: left;
 }
 
 .skill-row-third {
   width: 60%;
-  margin: 0px auto 12% auto;
+  margin: 0px auto 200px auto;
   text-align: left;
 }
 
